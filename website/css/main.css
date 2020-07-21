@@ -1,0 +1,29 @@
+.name {
+    text-align: center;
+    background-color: none;
+    color:#5C6B84;
+    font-size: 100px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.profession{
+    text-align: center;
+    background-color: none;
+    color: #5C6B84;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+.parallax {
+    background-image: url("../images/front page.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.centered{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
