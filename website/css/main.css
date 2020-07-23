@@ -1,21 +1,22 @@
 .name {
     text-align: center;
     background-color: none;
-    color:#5C6B84;
+    color:white;
     font-size: 100px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
 .profession{
     text-align: center;
     background-color: none;
-    color: #5C6B84;
-    font-size: 50px;
-    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 40px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 .parallax {
-    background-image: url("../images/front page.jpg");
+    background-image: url("../images/front page1.jpg");
     height: 100%;
+    width:100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: none;
@@ -23,7 +24,37 @@
 }
 .centered{
     position: absolute;
-    top:40%;
+    top:35%;
     left:50%;
     transform:translate(-50%,-50%)
+}
+.aboutMeHead{
+    text-align: center;
+    background-color: none;
+    color:black;
+    font-size: 75px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+.profile{
+    display:block;
+    border-radius: 50%;
+    margin-top:+125px;
+    margin-left:+400px;
+    width:20%;
+}
+
+.About{
+    position: relative
+}
+
+.profileParagraph{
+    position: absolute;
+    top:-40px;
+    right:275px;
+    background-color:none;
+    color:black;
+    max-width:400px;
+    font-size:25px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
