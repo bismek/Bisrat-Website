@@ -1,60 +1,80 @@
+
+.intro{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-bottom:0px;
+    color:#9986BD
+}
 .name {
     text-align: center;
-    background-color: none;
     color:white;
     font-size: 100px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-bottom:0px;
+    margin-top:0px;
 
 }
 .profession{
     text-align: center;
-    background-color: none;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top:10px
+}
+body{
+    margin:0;
 }
 .parallax {
     background-image: url("../images/front page1.jpg");
-    height: 100%;
     width:100%;
+    height:100%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: none;
-    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
 }
 .centered{
     position: absolute;
-    top:35%;
+    top:40%;
     left:50%;
     transform:translate(-50%,-50%)
 }
-.aboutMeHead{
+
+.aboutInfo{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:50px;
     text-align: center;
-    background-color: none;
-    color:black;
-    font-size: 75px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top:15px;
+    font-weight: bold;
+    color:#9986BD;
+
 
 }
 .profile{
     display:block;
-    border-radius: 50%;
-    margin-top:+125px;
-    margin-left:+400px;
-    width:20%;
-}
+    width:300px;
+    float:right;
+    
 
-.About{
-    position: relative
 }
-
+.profileParagraphHeader{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    border-bottom: solid;
+    border-color:#A6D9F7;
+    width:400px;
+}
 .profileParagraph{
-    position: absolute;
-    top:-40px;
-    right:275px;
-    background-color:none;
     color:black;
     max-width:400px;
-    font-size:25px;
+    font-size:20px;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+
+}
+.row{
+    margin-top:5%;
 }
