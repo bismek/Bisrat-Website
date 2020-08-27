@@ -5,7 +5,7 @@
     font-size: 30px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin-bottom:0px;
-    color:#9986BD
+    color:#ff9912
 }
 .name {
     text-align: center;
@@ -43,14 +43,19 @@ body{
     left:50%;
     transform:translate(-50%,-50%)
 }
-
+.aboutIntro{
+    margin-top:15px;
+    text-align: center;
+    color:#ff9912;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 .aboutInfo{
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size:50px;
     text-align: center;
-    margin-top:15px;
+    margin-top:10px;
     font-weight: bold;
-    color:#9986BD;
+    color:black;
 
 
 }
@@ -67,17 +72,21 @@ body{
     border-bottom: solid;
     border-color:#A6D9F7;
     width:400px;
+    
 }
 .profileParagraph{
     color:black;
     max-width:400px;
     font-size:20px;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:grey;
+
     
 
 }
 .row{
     margin-top:7%;
+    margin-right:5%;
 }
 
 .button1{
@@ -87,8 +96,8 @@ body{
     padding: 15px 32px;
     border-radius: 8px;
     transition-duration: 0.4s;
+    margin-left:50%;
     font-size: 24px;
-    float: right;
 }
 .button1:hover {
     background-color: white; /* Green */
@@ -103,7 +112,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
-    margin-left:35%;
+    margin-left:50%;
     border-radius: 8px;
     transition-duration: 0.4s;
     border: 2px solid #353839; /* Green */
@@ -115,12 +124,12 @@ body{
     border: 2px solid #353839; /* Green */
   }
 .button3{
-    background-color: #9986BD;
+    background-color: #ff9112;
     color: white;
     padding: 15px 32px;
-    border: 2px solid #9986BD; /* Green */
+    border: 2px solid #ff9112; /* Green */
     font-size: 24px;
-    float:left;
+    margin-left:50%;
     border-radius: 8px;
     transition-duration: 0.4s;
 }
@@ -132,20 +141,21 @@ body{
 .end{
     margin-top:5%;
     background-color:#061726;
-    width:100%;
-    height:95%;
-    background-size: cover;
+    height:80%;
     filter: grayscale(50%);
 }
 
-.projects{
+.projectsIntro{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+    color:#ff9112;
+    margin-top:100px;
 }
 
 .projectsHeader{
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size:50px;
     text-align: center;
-    margin-top:100px;
     font-weight: bold;
     color:#353839;
 }
@@ -240,3 +250,47 @@ body{
     font-size: 60px;
     padding: 37px 30px;
   }
+.endIntro{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+    color:#ff9112;
+    padding-top:50px;
+}
+.endHeader{
+    font-weight: bold;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:50px;
+    text-align: center;
+    color:white;
+} 
+
+.endParagraph{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:grey;
+    font-size:25px;
+    margin-top:5%;
+    text-align:center;
+}
+
+
+.contact1{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:#ff9112;
+    text-align: center;
+}
+.contact2{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:#ff9112;
+    text-align: center;
+}
+.contact3{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:#ff9112;
+    text-align: center;
+}
+
+.description{
+    font-size:20px;
+    margin-top:20px;
+    color: grey;
+}
